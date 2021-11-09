@@ -8,3 +8,5 @@
 */
 
 let genres = ["Comedy", "Drama", "Romance", "Horror", "Sci-Fi", "Documentary"];
+
+let unorderList = document.createElement("ul");
