@@ -16,3 +16,5 @@ for (i = 0; i < genres.length; i++) {
   createListItem.innerText = genres[i];
   unorderList.appendChild(createListItem);
 }
+let getBody = document.getElementsByTagName("body");
+getBody[0].appendChild(unorderList);
