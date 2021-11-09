@@ -21,7 +21,7 @@ div {
   width: 200px;
   height: 300px;
   background-color: rgb(0, 63, 60);
-  border: solid 1px white;
+  border: solid 1px rgb(0, 141, 134);
   border-radius: 10px;
   padding: 10px;
 }
@@ -37,4 +37,10 @@ img.album-cover {
 div p {
   margin: 0px;
   border-bottom: 1px solid rgb(0, 141, 134);
+}
+
+.reviews {
+  background-color: rgb(204, 204, 204);
+  color: rgb(54, 54, 54);
+  border: 1px solid gray;
 }
