@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(93, 0, 0);
+  color: rgb(190, 190, 190);
+}
+
+.album-card {
+  width: 25%;
+  height: 200px;
+  background-color: rgb(114, 0, 0);
+  border: solid 1px white;
+  border-radius: 5px;
+}
+.album-card.h2 {
+  text-align: center;
+}
+
+img.album-cover {
+  border-radius: 50%;
+}
+div.title {
+  font-size: 15px;
+  text-align: center;
+}
