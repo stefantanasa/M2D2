@@ -13,5 +13,6 @@ unorderList.classList.add("unordered-list");
 for (i = 0; i < genres.length; i++) {
   let createListItem = document.createElement("li");
   createListItem.classList.add("item-" + i);
+  createListItem.innerText = genres[i];
   unorderList.appendChild(createListItem);
 }
